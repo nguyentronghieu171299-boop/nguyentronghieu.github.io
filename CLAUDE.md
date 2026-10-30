@@ -35,3 +35,11 @@ Repo này gồm 2 phần:
 | `vib-meeting-minutes` | Biên bản họp, workshop thu thập yêu cầu, action items |
 | `vib-change-impact` | Phân tích tác động Change Request |
 | `vib-banking-glossary` | Tra cứu / giải thích thuật ngữ nghiệp vụ ngân hàng |
+
+## Danh sách agent (`.claude/agents/`)
+
+| Agent | Vai trò |
+|---|---|
+| `vib-brd-reviewer` | Review độc lập BRD/SRS/user story (chỉ đọc, không sửa file) |
+| `vib-test-designer` | Thiết kế test case UAT, dữ liệu test, RTM từ tài liệu yêu cầu |
+| `vib-regulation-researcher` | Tra cứu quy định pháp luật/NHNN mới và tác động tới yêu cầu |
